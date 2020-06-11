@@ -61,7 +61,7 @@ def PLR(A, printIterations = True):
                 R[j, i] = R[j, i] - (L[j, k] * R[k, i])
 
         if printIterations:
-            print("----------################# ITERATION " + str(k) + " ####################-------------")
+            print("----------################# ITERATION " + str(k+1) + " ####################-------------")
             print('L:')
             print(L)
             print('R:')
